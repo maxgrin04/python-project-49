@@ -8,6 +8,6 @@ build:
 	uv	build 
 
 package-install:
-	uv	tool	install dist/*.whl	
+	uv	tool	install dist/*.whl
 
 .PHONY:	install	brain-games	build	package-install
