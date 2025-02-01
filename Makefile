@@ -8,6 +8,12 @@ build:
 	uv	build 
 
 package-install:
-	uv	tool	install dist/*.whl
+	uv pip install --force dist/*.whl	
 
-.PHONY:	install	brain-games	build	package-install
+lint:
+	uv	run	ruff	check	.
+
+lint-fix:
+	uv	run	ruff	check	--fix	.
+
+.PHONY:	lint	install	brain-games	build	package-install
