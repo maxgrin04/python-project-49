@@ -8,7 +8,7 @@ build:
 	uv	build 
 
 package-install:
-	uv pip install --force dist/*.whl	
+	uv pip install --reinstall dist/*.whl	
 
 lint:
 	uv	run	ruff	check	.
