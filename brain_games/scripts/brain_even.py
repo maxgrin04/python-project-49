@@ -1,9 +1,10 @@
-
-from brain_games.parity_check import run_games_parity_check
+from brain_games.basic_logic import launch_game
+from brain_games.constants import EXERCISE_EVEN
+from brain_games.games.even_logic import run_game_brain_even
 
 
 def main():
-    run_games_parity_check()
+    launch_game(EXERCISE_EVEN, run_game_brain_even)
 
 
 if __name__ == "__main__":

@@ -8,3 +8,6 @@ Welcome to the Brain Games project!
 
 Here is a demo of the "brain-even" game:
 [![asciicast]( https://asciinema.org/a/VgtjsT7Zrv59u48DllOo0JR44.svg)](https://asciinema.org/a/VgtjsT7Zrv59u48DllOo0JR44)
+
+Here is a demo of the "brain-even" game:
+[![asciicast](  https://asciinema.org/a/9RnG8EfrvUuxKYKOoNFBFr73S.svg)]( https://asciinema.org/a/9RnG8EfrvUuxKYKOoNFBFr73S)
