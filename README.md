@@ -11,3 +11,6 @@ Here is a demo of the "brain-even" game:
 
 Here is a demo of the "brain-calc" game:
 [![asciicast](  https://asciinema.org/a/9RnG8EfrvUuxKYKOoNFBFr73S.svg)]( https://asciinema.org/a/9RnG8EfrvUuxKYKOoNFBFr73S)
+
+Here is a demo of the "brain-gcd" game:
+[![asciicast](  https://asciinema.org/a/A4DuHUt6UfWdYl2I4gEWH0TAe.svg)]( https://asciinema.org/a/A4DuHUt6UfWdYl2I4gEWH0TAe)

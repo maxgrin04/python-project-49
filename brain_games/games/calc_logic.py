@@ -1,5 +1,5 @@
-import random
 import operator
+import random
 
 
 def operation(rand_operator, number_1, number_2):
