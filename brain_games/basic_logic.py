@@ -20,7 +20,7 @@ def check_answer(question, correct_answer, name):
     else:
         print(f"'{answer}' is wrong answer ;(. "
               f"Correct answer was '{correct_answer}'")
-        print(f"Let's try again, {name}")
+        print(f"Let's try again, {name}!")
         return False
 
 
