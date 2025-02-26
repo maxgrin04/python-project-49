@@ -2,11 +2,11 @@ import prompt
 
 
 # Приветствие, имя пользователя и задание
-def greet_and_exercise(exercise):
+def greet_and_rules(rules):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(exercise)
+    print(rules)
     return name
 
 
@@ -30,9 +30,9 @@ def game_win(name):
 
 
 # Запускаем игру
-def launch_game(exercise, game, cycle=3):
-    name = greet_and_exercise(exercise)
-    for _ in range(cycle):
+def launch_game(rules, game, tries=3):
+    name = greet_and_rules(rules)
+    for _ in range(tries):
         question, correct_answer = game()
         if not check_answer(question, correct_answer, name):
             return 

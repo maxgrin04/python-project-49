@@ -1,10 +1,10 @@
-from brain_games.basic_logic import launch_game
-from brain_games.constants import EXERCISE_PRIME
-from brain_games.games.prime_logic import run_game_brain_prime
+from brain_games.engine_logic import launch_game
+from brain_games.games.prime_logic import RULES_PRIME
+from brain_games.games.prime_logic import create_prime_question_and_answer
 
 
 def main():
-    launch_game(EXERCISE_PRIME, run_game_brain_prime)
+    launch_game(RULES_PRIME, create_prime_question_and_answer)
 
 
 if __name__ == "__main__":
