@@ -1,6 +1,6 @@
 [project]
 name = "hexlet-code"
-version = "0.1.17"
+version = "0.1.18"
 description = "«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга."
 authors = [{name = "Максим Гринь", email = "mgrin98@gmail.com"}]
 readme = "README.md"
@@ -44,7 +44,7 @@ preview = true
 select = ["E", "F", "I", "C90"]
 
 [project.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+brain-games = "brain_games.scripts.brain_games_:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
