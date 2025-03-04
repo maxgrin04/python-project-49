@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 
 from brain_games.cli import welcome_user
-from brain_games.my_project import greet
+
 
 
 def main():
-    greet()
     welcome_user()
 
 

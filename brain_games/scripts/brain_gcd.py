@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from brain_games.engine_logic import launch_game
 from brain_games.games.gcd_logic import RULES_GCD
 from brain_games.games.gcd_logic import create_gcd_question_and_answer
