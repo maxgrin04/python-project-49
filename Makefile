@@ -8,7 +8,7 @@ build:
 	uv	build 
 
 package-install:
-	uv tool install dist/hexlet_code-0.1.18-py3-none-any.whl	
+	uv tool install dist/hexlet_code-0.1.19-py3-none-any.whl	
 
 lint:
 	uv	run	ruff	check	.
