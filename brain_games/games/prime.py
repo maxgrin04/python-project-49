@@ -1,6 +1,5 @@
-import random
 import math
-
+import random
 
 MIN_RANDOM_NUMBER = 1
 MAX_RANDOM_NUMBER = 100
@@ -17,7 +16,10 @@ def is_prime(number):
     return True
 
 
-def create_prime_question_and_answer():
-    number = random.randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+def create_question_and_answer():
+    number = random.randint(
+        MIN_RANDOM_NUMBER, 
+        MAX_RANDOM_NUMBER
+    )
     correct_answer = 'yes' if is_prime(number) else 'no'
     return number, correct_answer
