@@ -1,6 +1,6 @@
 [project]
 name = "hexlet-code"
-version = "0.2.0"
+version = "0.2.1"
 description = "«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга."
 authors = [{name = "Максим Гринь", email = "mgrin98@gmail.com"}]
 readme = "README.md"
