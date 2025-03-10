@@ -7,13 +7,12 @@ RULES_CALC = 'What is the result of the expression?'
 
 
 def calculate_operation(rand_operator, number_1, number_2):
-    match rand_operator:
-        case '*':
-            correct_answer = number_1 * number_2
-        case '+':
-            correct_answer = number_1 + number_2
-        case '-':
-            correct_answer = number_1 - number_2
+    if rand_operator == '*':
+        correct_answer = number_1 * number_2
+    if rand_operator == '+':
+        correct_answer = number_1 + number_2
+    if rand_operator == '-':
+        correct_answer = number_1 - number_2
     return correct_answer
 
 
